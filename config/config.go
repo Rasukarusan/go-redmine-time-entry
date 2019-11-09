@@ -9,6 +9,7 @@ import (
 type Config struct {
 	UserId   string `json:"user_id"`
 	Password string `json:"password"`
+	Url      string `json:"url"`
 }
 
 func Load() *Config {
