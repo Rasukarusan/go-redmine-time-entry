@@ -1,4 +1,5 @@
 {
     "user_id" : "YOURNAME",
-    "password" : "YOURPASSWORD"
+    "password" : "YOURPASSWORD",
+    "url" : "REDMINE_URL" 
 }
