@@ -13,6 +13,7 @@ type Config struct {
 }
 
 func Load() *Config {
+	// @TODO 環境変数から取得する形式、もしくはrakyll/statikを使う形式にする
 	jsonString, err := ioutil.ReadFile("./config/config.json")
 	if err != nil {
 		log.Println(err)
