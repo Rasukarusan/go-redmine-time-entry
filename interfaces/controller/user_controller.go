@@ -26,8 +26,8 @@ func NewUserController(driver *agouti.WebDriver) *UserController {
 
 func (controller *UserController) SignIn() {
 	u := domain.User{
-		Username: "tanaka.naoto",
-		Password: "passooowoww",
+		Username: "i am user",
+		Password: "i am pass",
 	}
 	isLogin, err := controller.Interactor.UserLogin(u)
 	if err != nil {
